@@ -1,4 +1,4 @@
-# Bionic Reading Extension
+# Bionic Reading Transformer Extension
 
 A Chrome extension that improves reading speed and comprehension by applying "Bionic Reading" formatting to web pages. This technique bolds the first few letters of each word, guiding the eye through the text.
 
