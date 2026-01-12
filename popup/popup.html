@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bionic Reading</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="popup-container">
+        <div class="header">
+            <h1>Bionic Reading</h1>
+            <div class="status">
+                <span id="status-indicator">●</span>
+                <span id="status-text">Ready</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="transform-selection" class="primary-btn" style="margin-bottom: 8px;">
+                Transform Selection
+            </button>
+
+            <button id="transform-page" class="secondary-btn">
+                Transform Page
+            </button>
+
+            <button id="restore-page" class="secondary-btn" disabled>
+                Restore Original
+            </button>
+        </div>
+
+        <div class="info">
+            <p>💡 Use <kbd>Ctrl+Shift+V</kbd> to transform selected text</p>
+        </div>
+
+        <div class="footer">
+            <a href="#" id="open-options">Settings</a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
